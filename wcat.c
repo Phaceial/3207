@@ -4,7 +4,6 @@
 main(int argc, char **argv){
     int i;
     char c;
-    printf("%s", argv[1]);
     for (i = 1; i < argc; i++){
         FILE *fp = fopen(argv[i], "r");
         if (fp == NULL){
