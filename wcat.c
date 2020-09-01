@@ -4,15 +4,15 @@
 
 main(int argc, char **argv){
     int i;
-    char c[BUFFER_SIZE];
+    char str[BUFFER_SIZE];
     for (i = 1; i < argc; i++){
         FILE *fp = fopen(argv[i], "r");
         if (fp == NULL){
             printf("Cannot open file. Check filename/location.\n");
             exit(1);
         }
-        while ((fgets(c, BUFFER_SIZE, fp)) != NULL){
-            puts(c);
+        while ((fgets(str, BUFFER_SIZE, fp)) != NULL){
+            puts(str);
         }
         fclose(fp);
     }
