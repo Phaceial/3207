@@ -11,9 +11,8 @@ main(int argc, char **argv){
             printf("Cannot open file. Check filename/location.\n");
             exit(1);
         }
-        while ((fgets(str, BUFFER_SIZE, fp)) != NULL){
+        while ((fgets(str, BUFFER_SIZE, fp)) != NULL)
             puts(str);
-        }
         fclose(fp);
     }
     return 0;

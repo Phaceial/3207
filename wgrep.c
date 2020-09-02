@@ -16,7 +16,7 @@ main(int argc, char **argv){
         strncpy(search, argv[1], sizeof(argv[1]));
         printf("Enter a String to search\n");
         fgets(str, sizeof(str), stdin);
-        if (strcasestr(str, search)){
+        if (strstr(str, search)){
             puts(str);
         }
     }else{
@@ -28,7 +28,7 @@ main(int argc, char **argv){
                 exit(1);
             }
             while ((fgets(str, BUFFER_SIZE, fp)) != NULL){
-                if (strcasestr(str, search))
+                if (strstr(str, search))
                     puts(str);
             }
             fclose(fp);
