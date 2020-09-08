@@ -1,0 +1,9 @@
+This is a test.
+Testing
+testing   h
+The quick brown fox Jumped over the Lazy Dogsx!@$#
+reverse this jawn
+hope this works.
+please work.
+I needed a really long sentence to test the buffering. I hope this works. Please for the love of god work. I wonder if this program is worth doing in cpp? Does cpp have the stack data structure built into it. I still might not come close to maxing out the buffer, but we will see.
+Hello
