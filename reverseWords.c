@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <string.h>
 #define BUFFER_SIZE 256
-
 void reverseInput (char string[]);
 
 int main(int argc, char **argv){
